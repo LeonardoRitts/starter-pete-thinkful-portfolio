@@ -17,13 +17,15 @@ h3 {
 }
 
 /* Header */
-header {
+.header-container {
   display: flex;
-  align-items: center;
+  
+  padding: 40px;
 }
 .header-items{
-  flex: 1;
+
   margin: 10px;
+
 }
 .header-nav{
   display: flex;
